@@ -1,138 +1,86 @@
-body {
-  font-family: 'Questrial', sans-serif;
-  font-weight: 500;
-  color: #790252;
-  text-align: center;
-  line-height: 50px;
-  background: linear-gradient(-45deg, #ee7752, #23a6d5, #23d5ab);
-  background-size: 125% 125%;
-  animation: gradient 15s ease infinite;
-}
+@media (max-width: 1750px) and (min-width: 350px)  {
 
-h1 {
-  font-size: 40px;
-}
-
-h2 {
-  font-size: 25px;
-}
-
-p {
-  font-size: 22px;
-}
-
-.study {
-  font-size: 20px;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0 auto;
-}
-
-.listlang {
-  color: #E94560;
-  background-color: #0F3460;
-  margin-left: 200px;
-  margin-right: 200px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  padding: 0.5px;
-  border-radius: 25px;
-}
-
-.listlang:hover {
-  background-color: rgba(76, 0, 51, 0.5);
-}
-
-a {
-  color: #E94560;
-  text-decoration: none;
-  margin: 75px;
-  padding: 10px;
-  background-color: #0F3460;
-  border-radius: 25px;
-  font-size: 20px;
-}
-
-a:hover {
-  background-color: rgba(76, 0, 51, 0.5);
-  text-decoration: underline;
-}
-
-.img-circle {
-  width: 200px;
-  height: 200px;
-  border-radius: 50pc;
-  opacity: 0.9;
-}
-
-.img-circle:hover {
-  border-radius: 0pc;
-  width: 250px;
-  height: 250px;
-}
-
-.container {
-  text-align: center;
-  background-color: rgba(83, 52, 131, 0.4);
-  padding: 10px;
-  margin-top:  30px;
-  margin-bottom: 30px;
-  margin-left: 150px;
-  margin-right: 150px;
-  border-radius: 50px;
-  border: 1px solid #E94560;
-}
-
-.parentcard {
-  width: 90pc;
-  text-align: center;
-}
-
-.row {
-  display: inline-flex;
-  width: 65pc;
-  margin-left: 150px;
-  margin-right: 150px;
-  text-align: center;
-}
-
-.cardleft {
-  text-align: center;
-  background-color: rgba(83, 52, 131, 0.4);
-  padding: 10px;
-  margin-right: 8px;
-  border-radius: 50px;
-  border: 1px solid #E94560;
-  width: 36pc;
-}
-
-.cardright {
-  text-align: center;
-  background-color: rgba(83, 52, 131, 0.4);
-  padding: 10px;
-  margin-left: 8px;
-  border-radius: 50px;
-  border: 1px solid #E94560;
-  width: 36pc;
-}
-
-@media (max-width: 960px) {
-  .container {
-    width: 700px;
+  body {
+    background-image: url("images/deepfield.jpeg");
+    text-align: center;
   }
-}
 
-@media (max-width: 720px) {
-  .container {
-    width: 500px;
+  .titlebar {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 1px;
+    background-color: blue;
+    text-align: left;
+    border: 1px solid gray;
+    display: flex;
   }
-}
 
-@media (max-width: 540px) {
-  .container {
-    width: 300px;
+  .register {
+    height: 25px;
+    width: 25px;
+    margin-left: auto;
+    margin-top: 13px;
   }
-}
+
+  .bin {
+    height: 25px;
+    width: 25px;
+    margin-top: 13px;
+  }
+
+  #background {
+    background-color: grey;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border: 1px solid blue;
+    padding: 5px;
+    display: flex;
+  }
+
+  .container {
+    padding: 10px;
+    margin: auto;
+  }
+
+
+  .img-circle {
+    height: 100px;
+    width: 100px;
+    margin: auto;
+  }
+
+  .retro {
+    height: 150px;
+    width: 150px;
+    margin: auto;
+  }
+
+
+  a {
+    color: blue;
+  }
+
+  .card {
+    background-color: grey;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border: 1px solid blue;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+  }
+
+  .texty {
+    margin: auto;
+  }
+
+  .listy {
+    margin: auto;
+  }
+  }
+
